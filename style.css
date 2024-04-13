@@ -45,6 +45,9 @@ h2{
     padding: 10px 50px;
     margin-bottom: 30px;
 }
+input{
+    border: 1px solid #000;
+}
 .stackover{
     margin-bottom: 40px;
 }
