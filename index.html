@@ -20,9 +20,9 @@
 <body>
     <div class="container-box">
         <header>
-            <h2>
+            <h1>
                 Job Application
-            </h2>
+            </h1>
             <p class="first-para">
                 Please complete the form below to apply for a position with us.
 
@@ -34,16 +34,16 @@
             <div class="container">
                 <div class="row input-names">
                     <div class="col-4">
-                        <input type="text">
-                        <p>First Name</p>
+                        <input type="text" id="f-name" required>
+                        <p class="first-name">First Name</p>
                     </div>
                     <div class="col-4">
-                        <input type="text">
-                        <p>Middle Name</p>
+                        <input type="text" id="m-name" required>
+                        <p class="middle-name">Middle Name</p>
                     </div>
                     <div class="col-4">
-                        <input type="text">
-                        <p>Last Name</p>
+                        <input type="text" id="l-name" required>
+                        <p class="last-name">Last Name</p>
                     </div>
                 </div>
             </div>
@@ -51,33 +51,33 @@
                 <div class="row contact-details">
                     <div class="col-6">
                         <h2>Email Address</h2>
-                        <input type="text" placeholder="ex: myname@example.com">
-                        <p>myname@example.com</p>
+                        <input type="text" id="email" placeholder="ex: myname@example.com">
+                        <p class="example">example@example.com</p>
                     </div>
                     <div class="col-6">
                         <h2>Phone Numbers</h2>
-                        <input type="text" placeholder="(000) 000-0000">
+                        <input type="tel" id="phone-number" placeholder="(000) 000-0000">
                     </div>
                 </div>
             </div>
             <div class="needed-links">
                 <div class="stackover">
                 <h2>
-                    Stackoverflow
+                    Stackoverflow <span>*</span>
                 </h2>
-                <input type="text">
+                <input type="text" id="stackover" required>
             </div>
             <div class="github-link">
-                <h2>Github Link</h2>
-                <input type="text">
+                <h2>Github Link <span>*</span></h2>
+                <input type="text" id="github-link" required>
             </div>
             </div>
-            <hr>
+            <hr class="middle">
             <div class="container">
                 <div class="row info">
                     <div class="col-6">
                         <h2>Position Applied</h2>
-                       <select name="" id="">
+                       <select name="" id="" required>
                         <option value="1">Please Select</option>
                         <option value="2">Developer</option>
                         <option value="3">QA</option>
@@ -85,19 +85,19 @@
                     </div>
                     <div class="col-6">
                         <h2>Available Start Date</h2>
-                        <input type="date">
+                        <input type="date" id="date" required>
                     </div>
                 </div>
             </div>
             <div class="container">
                 <div class="row resume">
                     <div class="col-12">
-                        <h2 class="upload">Upload Your Resume*</h2>
+                        <h2 class="upload">Upload Your Resume <span>*</span></h2>
                         <div class="cv-box">Box</div>
                     </div>
                 </div>
             </div>
-            <hr>
+            <hr class="footer-hr">
         </main>
         <footer>
             <button>Apply</button>
