@@ -255,13 +255,13 @@ button{
     .middle-name{
         font-size: .65em;
         color: #464d5f;
-        margin-left: -6px;
+        margin-left: -13px;
     }
     .last-name{
         font-size: .65em;
         color: #464d5f;
         margin-left: 13px;
-        margin-left: -10px;
+        margin-left: 1px;
     }
     #f-name{
         margin-bottom: 4px;
