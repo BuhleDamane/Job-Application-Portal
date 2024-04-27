@@ -6,7 +6,7 @@ body{
     transform: translate(-50%, -50%);
     top: 90%;
     left: 50%;
-    width: 100%;
+    width: 750px;
     height: 1200px;
     background-color: white;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
@@ -381,7 +381,7 @@ button{
         font-size: 12px;
     }
     .start-date{
-        margin-left: -18px;
+        margin-left: -3px;
         font-size: 1em;
         white-space: nowrap;
     }
